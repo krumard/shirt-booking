@@ -1,5 +1,5 @@
 const API_URL =
-"https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnTUfic8BVTAHMktIWDQGt2FJqIh9c-SPplrbPj1oDsGgCpmfl13JmYB1nEFT7YdOwpgcE_nbJc7njknE7K__eElPgUNMUaZ98KXKe61U6D4MaNrC47QNmB0PeaxUmAWmQNsWPz8vXeDqnFXe62Ib258tDWtUKgcNNNLlVGpYTvcBYGkMBGVD8_ZuNhvy8ituEB9ik_cog6HExbWAFrmJxPEOUP6vCipdiUTKJH1fGbKCwazJyYqh23-YB51EbE-Bmlbnh_lIniRLCEJrgUbmE3wjzhsvw&lib=MalVkEQ23cLUkiimyj5MDvcKf_8cfa87k";
+"https://script.google.com/macros/s/AKfycbw63SkepQNsgD7c-i_92nk4Q-DstLNVT9jX3zPuuyohkPBxJr1ieVLD0qCS6SGb8G0OdA/exec";
 
 
 const form =
