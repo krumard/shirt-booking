@@ -1,5 +1,5 @@
 const API_URL =
-"https://script.google.com/macros/s/ใส่รหัส_DEPLOY_ของครู/exec";
+"https://script.google.com/macros/s/AKfycbw63SkepQNsgD7c-i_92nk4Q-DstLNVT9jX3zPuuyohkPBxJr1ieVLD0qCS6SGb8G0OdA/exec";
 
 
 const form =
