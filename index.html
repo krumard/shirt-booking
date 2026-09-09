@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>SRNR Shirt Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>👕 จองเสื้อ SRNR</h1>
+
+        <p class="subtitle">
+            ระบบจองเสื้อออนไลน์
+        </p>
+
+        <form id="bookingForm">
+
+            <label>
+                ชื่อผู้จอง
+            </label>
+
+            <input
+            id="name"
+            type="text"
+            placeholder="กรอกชื่อ"
+            required>
+
+            <label>
+                เบอร์โทร
+            </label>
+
+            <input
+            id="phone"
+            type="tel"
+            placeholder="เช่น 0812345678">
+
+            <label>
+                ไซซ์เสื้อ
+            </label>
+
+            <select id="size" required>
+
+                <option value="">
+                    เลือกไซซ์
+                </option>
+
+                <option value="S">
+                    S
+                </option>
+
+                <option value="M">
+                    M
+                </option>
+
+                <option value="L">
+                    L
+                </option>
+
+                <option value="XL">
+                    XL
+                </option>
+
+                <option value="2XL">
+                    2XL
+                </option>
+
+                <option value="3XL">
+                    3XL
+                </option>
+
+            </select>
+
+            <label>
+                จำนวน
+            </label>
+
+            <input
+            id="qty"
+            type="number"
+            value="1"
+            min="1">
+
+            <button type="submit">
+
+                ยืนยันการจอง
+
+            </button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            📊 ยอดจองปัจจุบัน
+        </h2>
+
+        <div id="summary">
+
+            กำลังโหลด...
+
+        </div>
+
+        <p id="updateTime"></p>
+
+    </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
